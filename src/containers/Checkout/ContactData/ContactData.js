@@ -4,7 +4,6 @@ import Spinner from '../../../components/UI/Spinner/Spinner';
 import axios from '../../../axios-orders'; //our configured axios instance
 import classes from './ContactData.module.css';
 import Input from '../../../components/UI/Input/Input';
-import { rule } from 'postcss';
 
 class ContactData extends Component {
   state = {
